@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: magenta;
+    color: black;
+    padding: 10px;
+    text-align: left;
+}
+
+p{
+    text-align: left;
+    background-color: magenta;
+    color: black;
+    padding: 10px;
+}
+
+
+h1{
+    padding: 20px;
+    color: yellow;
+    background-color: black;
+  }
+
+/* Page layout styles */
+  /**HOME PAGE**/
+  header {
+    background-color: magenta;
+    color: red;
+    padding: 20px;
+  }
+
+h1{
+    padding: 20px;
+    color: black;
+    background-color: yellow;
+  }
+  
+  h2{
+    padding: 10px;
+    color: black;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: magenta;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    background-color: yellow;
+}
+
+
+ /* Page layout styles */
+  /**ABOUT PAGE**/
+  header {
+    background-color: magenta;
+    color: yellow;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: magenta;
+    padding: 20px;
+  }
+
+  h1{
+    background-color: yellow;
+  }
+
+  h2{
+    background-color: yellow;
+  }
+
+  /* Page layout styles */
+  /**CONTACT PAGE**/
+  header {
+    background-color: magenta;
+    color: yellow;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: magenta;
+    padding: 20px;
+  }
+
+  h1{
+    background-color: yellow;
+  }
+/* Animation styles */
+  
+  
+  
+  .fadeIn {
+    opacity:  m;
+    animation: fadeInAnimation 1s ease-in forwards;
+  }
+  
+  .slideIn {
+    animation: slideInAnimation 1s ease-in-out;
+  }
+  
+  /* Apply animations to elements */
+  h1.fadeIn,
+  p.fadeIn {
+    animation-delay: 0.5s;
+  }
+  
+  h1.slideIn,
+  p.slideIn {
+    animation-delay: 0.5s;
+  }
